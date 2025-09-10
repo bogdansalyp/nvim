@@ -7,6 +7,4 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set list")
 vim.cmd("set listchars+=trail:·")
 
-vim.g.mapleader = " "
-
 vim.keymap.set('i', 'df', '<Esc>', { noremap = true })
