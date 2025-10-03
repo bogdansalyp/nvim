@@ -9,6 +9,8 @@ return {
   lazy = false, -- neo-tree will lazily load itself
   config = function()
     require("neo-tree").setup({
+      enable_git_status = true,
+      enable_diagnostics = true,
       filesystem = {
         use_libuv_file_watcher = true,
         filtered_items = {
