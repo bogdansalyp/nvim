@@ -10,3 +10,4 @@ vim.cmd("set listchars+=trail:·")
 vim.keymap.set('i', 'df', '<Esc>', { noremap = true })
 
 vim.o.number = true
+vim.o.smartindent = true
