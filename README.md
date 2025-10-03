@@ -8,10 +8,18 @@
 
 - brew install 
 
+### Python
+
+- brew install ruff
+
 ### Go
 
 - go install golang.org/x/tools/gopls@latest
 - Add $(go env GOPATH)/bin to PATH
+
+### Bash
+
+- npm i -g bash-language-server
 
 # LSP
 
