@@ -1,6 +1,7 @@
 # Requires
 
 - nvim 0.11
+- ripgrep
 
 ## LSP
 
@@ -10,7 +11,7 @@
 
 ### Python
 
-- brew install ruff
+- brew install basedpyright
 
 ### Go
 
@@ -38,6 +39,3 @@
 - themes
 - search only in not git ignored files
 
-# Requirements
-
-- ripgrep
