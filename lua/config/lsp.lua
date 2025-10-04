@@ -22,4 +22,5 @@ vim.diagnostic.config({
 })
 
 vim.o.winborder = 'rounded'
+vim.opt.completeopt = {'menu', 'menuone', 'noinsert', 'noselect'}
 
