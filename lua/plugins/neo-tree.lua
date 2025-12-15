@@ -11,6 +11,10 @@ return {
     require("neo-tree").setup({
       enable_git_status = true,
       enable_diagnostics = true,
+      window = {
+        position = "float",
+        width = 10
+      },
       filesystem = {
         use_libuv_file_watcher = true,
         filtered_items = {
@@ -18,6 +22,6 @@ return {
         }
       }
     })
-    vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>')
+    vim.keymap.set('n', '<C-b>', ':Neotree float toggle<CR>')
   end
 }
