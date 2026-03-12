@@ -12,3 +12,4 @@ vim.keymap.set('i', 'df', '<Esc>', { noremap = true })
 vim.o.number = true
 vim.o.smartindent = true
 vim.o.clipboard = "unnamedplus"
+vim.o.undofile = true
