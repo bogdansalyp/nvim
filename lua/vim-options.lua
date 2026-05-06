@@ -13,3 +13,4 @@ vim.o.number = true
 vim.o.smartindent = true
 vim.o.clipboard = "unnamedplus"
 vim.o.undofile = true
+vim.o.mousescroll = "ver:1,hor:1"
