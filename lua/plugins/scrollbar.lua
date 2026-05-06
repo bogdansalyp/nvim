@@ -7,7 +7,7 @@ return {
   },
   config = function()
     require("scrollbar").setup()
-    require("scrollbar.handlers.gits").setup()
+    require("scrollbar.handlers.gitsigns").setup()
     require("scrollbar.handlers.search").setup()
   end,
 }
