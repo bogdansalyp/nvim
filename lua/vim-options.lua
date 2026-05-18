@@ -15,3 +15,9 @@ vim.o.smartindent = true
 vim.o.clipboard = "unnamedplus"
 vim.o.undofile = true
 vim.o.mousescroll = "ver:1,hor:1"
+
+vim.o.autoread = true
+vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter", "CursorHold", "CursorHoldI", "TermLeave" }, {
+  pattern = "*",
+  command = "if mode() !~ '\\v(c|r.?|!|t)' && getcmdwintype() == '' | checktime | endif",
+})
