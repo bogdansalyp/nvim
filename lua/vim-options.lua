@@ -9,6 +9,7 @@ vim.cmd("set listchars+=trail:·")
 
 vim.keymap.set('i', 'df', '<Esc>', { noremap = true })
 
+vim.wo.signcolumn = "yes"
 vim.o.number = true
 vim.o.smartindent = true
 vim.o.clipboard = "unnamedplus"
